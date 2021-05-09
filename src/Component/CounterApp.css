@@ -1,0 +1,31 @@
+button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.btn-inc:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-inc {
+  background-color: hsl(128, 56%, 36%);
+
+  color: white;
+}
+
+.btn-dec {
+  background-color: #a32303;
+
+  color: #faf5f4;
+}
+
+.btn-dec:hover {
+  background-color: #c25252;
+  color: white;
+}

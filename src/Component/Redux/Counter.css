@@ -1,0 +1,83 @@
+.title {
+  grid-area: header;
+}
+.right-text {
+  grid-area: right;
+}
+.counter {
+  grid-area: left;
+}
+.text {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'left left right'
+    'footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.btn-inc:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-inc {
+  background-color: hsl(128, 56%, 36%);
+
+  color: white;
+}
+
+.btn-dec {
+  background-color: #a32303;
+  color: #faf5f4;
+}
+
+.btn-dec:hover {
+  background-color: #c25252;
+  color: white;
+}
+
+ul.ul-right-text {
+  list-style-type: square;
+}
+
+ul.ul-right-text > li {
+  border-style: solid;
+  text-align: left;
+  padding-bottom: 5px;
+}
+.counter-main {
+  text-align: center;
+  border-style: solid;
+  border-width: 75px;
+}
+.redux {
+  text-align: justify;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

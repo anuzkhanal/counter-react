@@ -1,0 +1,69 @@
+.title-container {
+  grid-area: header;
+  font-weight: bolder;
+  font-size: large;
+  text-align: center;
+}
+
+.count-conatiner {
+  grid-area: main;
+  text-align: center;
+}
+
+.sync-container {
+  grid-area: left;
+  grid-auto-columns: 50%;
+}
+
+.async-container {
+  grid-area: right;
+  grid-auto-columns: 50%;
+}
+
+.last-container {
+  grid-area: footer;
+  background: brown;
+}
+
+.main-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'main main main main'
+    'left left right right'
+    'footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.main-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.title {
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.redux-counter {
+  background-color: #a32303;
+  border: none;
+  color: hsl(0, 24%, 96%);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.redux-counter:hover {
+  background-color: #4caf50;
+  color: white;
+}
